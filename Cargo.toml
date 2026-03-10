@@ -3,6 +3,10 @@ name = "bbn_services"
 version = "0.1.0"
 edition = "2024"
 
+[[bin]]
+name = "bbn_services"
+path = "src/server.rs"
+
 [dependencies]
 axum = "0.8.8"
 tokio = { version = "1.50", features = ["full"] }
